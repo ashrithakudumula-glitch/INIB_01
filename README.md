@@ -23,7 +23,9 @@ An image classification AI model built with TensorFlow/Keras trained on the CIFA
 - Tested on 10,000 images
 
 ## How to Run
-1. Clone this repository
-2. Install dependencies: `pip install tensorflow matplotlib numpy`
-3. Open `cifar10.ipynb` in VS Code or Jupyter
-4. Run all cells
+1. Clone this repository.
+2. Install dependencies
+   pip install tensorflow streamlit matplotlib numpy Pillow
+3. Run the app
+   streamlit run app.py
+4. Open your browser.
