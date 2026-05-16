@@ -1,0 +1,21 @@
+# Virtual environment - no need to push, others can recreate it
+venv/
+
+# Dataset cache - too large to push, downloads automatically
+~/.keras/datasets/
+
+# Python cache files - auto generated, not needed
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter notebook checkpoints - auto generated
+.ipynb_checkpoints/
+
+# Mac system files - not relevant to the project
+.DS_Store
+
+# System files
+*.egg-info/
+dist/
+build/
